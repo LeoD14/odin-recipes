@@ -5,3 +5,31 @@ background-color: #DBF9FC;
 title {
 text-align: center;
 }
+
+.div-1 {
+	background-color: #C36279;
+	color: white;
+	font-size: 32px;
+	align-content: center;
+	font-weight: bold;
+	padding: 20px;
+	border: 30px #75142B;
+	margin: 30px;
+}
+
+p {
+	background-color: #4E0012;
+	color: white;
+	font-size: 18px;
+	border: 30px;
+	margin: 30px;
+}
+
+img {
+	align-content: center;
+	padding: 10px;
+	border: 30px;
+	margin: 30px;
+}
+
+
