@@ -21,7 +21,7 @@ p {
 	background-color: #4E0012;
 	color: white;
 	font-size: 18px;
-	border: 30px;
+	border: 60px white;
 	margin: 30px;
 }
 
@@ -30,6 +30,13 @@ img {
 	padding: 10px;
 	border: 30px;
 	margin: 30px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0 0 0 / 30%);
+}
+
+.container {
+	display: flex;
+	border: 2px black solid;
 }
 
 
