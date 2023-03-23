@@ -1,11 +1,12 @@
 * {
-    margin: 0;
+    margin: 0;    
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 body {
-    background: linear-gradient(#16A085,#F4D03F);
+    background: linear-gradient(#5f2c82,#49a09d);
 }
 
 .title {
@@ -13,18 +14,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    font-weight: bolder;
-    color: rgb(26, 19, 19);
+    margin-top: 40px;
 }
 
-.gif {    
+.gif {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-
+    padding: 40px;    
 }
 
 .preparation {
@@ -54,12 +52,12 @@ ion-icon {
     position: relative;
     font-size: 50px;
     bottom: 10px;
-    color: #16A085;
+    color: #0d3a31;
     font-weight: bolder;
     &:hover {
         transform: scale(2);
         font-size: 60px;
         transition-delay: 0.3s;
-        color: rgb(32, 99, 12);
+        color: rgb(29, 41, 25);
     }
 }
